@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/reactjs-portfolio/static/css/main.acd984d4.css",
+    "main.js": "/reactjs-portfolio/static/js/main.f4795872.js",
+    "static/media/aguaDeLuz.png": "/reactjs-portfolio/static/media/aguaDeLuz.467713cf149b04296aa1.png",
+    "static/media/Vmarine.jpg": "/reactjs-portfolio/static/media/Vmarine.41ef118bf504ac6be33f.jpg",
+    "static/media/myImage.png": "/reactjs-portfolio/static/media/myImage.5c5cc341a681d575a8b5.png",
+    "static/media/todolist.png": "/reactjs-portfolio/static/media/todolist.04db867b1ada07cbc6dc.png",
+    "index.html": "/reactjs-portfolio/index.html",
+    "main.acd984d4.css.map": "/reactjs-portfolio/static/css/main.acd984d4.css.map",
+    "main.f4795872.js.map": "/reactjs-portfolio/static/js/main.f4795872.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.acd984d4.css",
+    "static/js/main.f4795872.js"
+  ]
+}

@@ -3,8 +3,6 @@ import React, { useEffect } from "react";
 //import hooks
 import SmoothScrollTo from "../hooks/smoothScrollTo";
 
-import WOW from "wowjs";
-
 export default function Navbar() {
   useEffect(() => {
     window.addEventListener("scroll", () => {
@@ -13,12 +11,13 @@ export default function Navbar() {
       var myBackground = document.getElementById("my-background");
       var domBGRect = myBackground.getBoundingClientRect();
 
-      if (domRect.y <= -domRect.height) {
+      // if (domRect.y <= -domRect.height) {
+      if (domBGRect.top <= -160) {
         navBar.classList.add("fade-in-nav");
-      }
-      if (-domBGRect.height < domBGRect.top) {
+      } else {
         navBar.classList.remove("fade-in-nav");
       }
+      console.log(domRect.y, domRect.height, domBGRect.top);
     });
   }, []);
 
@@ -26,7 +25,7 @@ export default function Navbar() {
     <div>
       <nav
         id="navbar"
-        className="navbar navbar-expand-lg navbar-light bg-light"
+        className="navbar navbar-b navbar-expand-lg navbar-light fixed-top navbar-trans"
       >
         <div className="container">
           <a
@@ -38,7 +37,7 @@ export default function Navbar() {
               });
             }}
           >
-            Back to Space
+            My Portfolio
           </a>
           <button
             className="navbar-toggler"
@@ -51,8 +50,17 @@ export default function Navbar() {
           >
             <span className="navbar-toggler-icon" />
           </button>
-          <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div
+            className="navbar-collapse collapse justify-content-end"
+            id="navbarNavAltMarkup"
+          >
             <div className="navbar-nav">
+              <a
+                onClick={() => SmoothScrollTo("my-background")}
+                className="btn-style nav-item nav-link"
+              >
+                Home
+              </a>
               <a
                 onClick={() => SmoothScrollTo("about-container")}
                 className="btn-style nav-item nav-link"

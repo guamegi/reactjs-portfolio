@@ -12,9 +12,9 @@ export default function Background() {
 
   return (
     <div id="my-background" className="background">
-      <div id="stars" />
-      <div id="stars2" />
-      <div id="stars3" />
+      <div id="snow" />
+      <div id="snow2" />
+      <div id="snow3" />
       <div className="top-container flex">
         <span className="mb-4">Hello, I'm Kwon MinHa</span>
         <span className="typing-text">Front End Developer</span>

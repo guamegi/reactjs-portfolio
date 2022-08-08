@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700");
 
 /*****************STARTS TOP BACKGROUND SECTION***************/
-#stars {
+#snow {
   width: 3px;
   height: 3px;
   background: transparent;
@@ -84,7 +84,7 @@
   animation: animStar 50s linear infinite;
 }
 
-#stars2 {
+#snow2 {
   width: 2px;
   height: 2px;
   background: transparent;
@@ -143,7 +143,7 @@
   animation: animStar 100s linear infinite;
 }
 
-#stars3 {
+#snow3 {
   width: 1px;
   height: 1px;
   background: transparent;
@@ -414,10 +414,6 @@
   animation: slideLeft 1s;
 }
 
-.project-container {
-  padding-top: 8rem;
-}
-
 @keyframes fillBar {
   0% {
     width: 0;
@@ -466,11 +462,15 @@
 }
 
 #about-container {
-  padding-top: 8rem;
+  padding: 8rem 0;
 }
 
-#contact {
-  padding-top: 8rem;
+#project-container {
+  padding: 8rem 0;
+}
+
+#contact-container {
+  padding: 8rem 0;
 }
 
 //*Changing here changes hover for project for some reason paos:absolute as before is not working

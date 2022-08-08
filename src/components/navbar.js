@@ -17,7 +17,7 @@ export default function Navbar() {
       } else {
         navBar.classList.remove("fade-in-nav");
       }
-      console.log(domRect.y, domRect.height, domBGRect.top);
+      // console.log(domRect.y, domRect.height, domBGRect.top);
     });
   }, []);
 

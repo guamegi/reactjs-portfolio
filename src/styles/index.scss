@@ -358,6 +358,7 @@
 
 .mytext {
   font-size: 1.2rem;
+  text-align: left;
 }
 
 .btn-style:hover {
@@ -463,6 +464,13 @@
 
 #about-container {
   padding: 8rem 0;
+}
+
+.skills-category {
+  font-size: 20px;
+  text-align: left;
+  color: #706e6e;
+  font-family: monospace;
 }
 
 #project-container {

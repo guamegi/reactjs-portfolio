@@ -20,7 +20,7 @@ export default function HiddenModals() {
     },
   ]);
 
-  // 이벤트 캡처링 방지
+  // 이벤트 버블링 방지
   useEffect(() => {
     const visualEl = document.getElementsByClassName("visual");
     for (let i = 0; i < visualEl.length; i++) {

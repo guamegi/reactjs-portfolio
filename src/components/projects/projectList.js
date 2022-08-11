@@ -25,7 +25,7 @@ export default function ProjectList() {
       name: "Dynamic Chart Sample",
       period: "2022.07",
       image: dynamicChart,
-      desc: `해당 프로젝트는 실시간 차트를 이용한 거래 플랫폼을 기획 검토하기 위해 
+      desc: `실시간 차트를 이용한 거래 플랫폼을 기획 검토하기 위해 
       2인이 프로토타입으로 만들었다가 폐기 된 소스를 개인적으로 재활용 중에 있습니다.
       실시간 데이터를 활용해 애니메이션을 적용하여 동적 차트 생성과 서큘링 큐
       방식의 데이터 활용 등을 경험하였습니다.
@@ -40,7 +40,7 @@ export default function ProjectList() {
       name: "ChartBook",
       period: "2022.05 ~ 06",
       image: chartBook,
-      desc: `해당 프로젝트는 react를 공부하며 개발한 개인 프로젝트 입니다.
+      desc: `react를 공부하며 개발한 개인 프로젝트 입니다.
       자신이 보유한 주식과 가상화폐의 총 보유 자산 현황을 한 곳에서 파악하기 위해 만들게
        되었습니다.
       `,

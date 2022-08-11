@@ -1,92 +1,62 @@
-import React, {useState} from "react";
+import React, { useEffect, useState } from "react";
 
-//import images
-import Vmarine from "../../img/Vmarine.jpg";
-import aguaDeLuz from "../../img/aguaDeLuz.png";
-import todo from "../../img/todolist.png";
-
-
-
-import HiddenModalDescription from "./hiddenModals.description";
+import myPortFolio from "../../img/myPortfolio.png";
+import dynamicChart from "../../img/dynamicChart.png";
+import chartBook from "../../img/chartBook.png";
 
 export default function HiddenModals() {
+  const [projects] = useState([
+    {
+      name: "My Portfolio",
+      image: myPortFolio,
+    },
+    {
+      name: "Dynamic Chart Sample",
+      image: dynamicChart,
+    },
+    {
+      name: "ChartBook",
+      image: chartBook,
+    },
+  ]);
 
-    const [projects, setProjects] = useState([
-        {
-            name: "vmarine",
-            image: Vmarine,
-            status: "View Live Demo",
-            ref:"./",
-            description: [
-                "Prototype marine web-application to provide information about progress of services and prices.",
-                "Designed with HTML5, CSS3, Bootstrap, Webpack, Wordpress, and ReactJS.",
-                "ba;lasdjkpasj kl;djaslkjdl kasl;d l;asd ."
-            ]
-        },
-        {
-            name: "agualuz",
-            image: aguaDeLuz,
-            status: "View Live Demo",
-            ref: "./AguaDeLuz/index.html",
-            description: [
-                "Marine web-application to provide information about progress of services and prices.",
-                "Designed with HTML5, CSS3, Bootstrap, Webpack, Wordpress, and ReactJS."
-            ]
-        },
-        {
-            name: "todolist",
-            image: todo,
-            status: "View Live Demo",
-            ref: "./todoList/index.html",
-            description: [
-                "YEAHHHH lication to provide information about progress of services and prices.",
-                "Designed with HTML5, CSS3, Bootstrap, Webpack, Wordpress, and ReactJS."
-            ]
-        }
-    ]);
-
-
-    function hiddeModal(name) {
-        const modalBG = document.getElementById("gallery-card");
-        const modal = document.getElementById(name);
-        modalBG.style.display = "none";
-        modal.style.display = "none";
+  // 이벤트 캡처링 방지
+  useEffect(() => {
+    const visualEl = document.getElementsByClassName("visual");
+    for (let i = 0; i < visualEl.length; i++) {
+      visualEl[i].addEventListener("click", function (e) {
+        e.stopPropagation();
+      });
     }
+  }, []);
 
-    const style = {
-        textAlign: "right",
-        fontWeight: 900,
-        fontSize: 2 + "rem",
-        cursor: "pointer"
+  function hiddenModal() {
+    const modalBG = document.getElementById("gallery-card");
+    const modals = document.getElementsByClassName("modal-card");
+
+    modalBG.style.display = "none";
+    for (let i = 0; i < modals.length; i++) {
+      modals[i].style.display = "none";
     }
+  }
 
-
-    return(
-		<div id="gallery-card">
-        {
-            projects.map((project, index) => {
-            return (
-                <div id={project.name} className="modal-card" key={index}>
-                    <div className="visual">
-                        <img src={project.image} alt=""/>
-                    </div>
-
-                    <div className="modal-info">
-                        <h2>{project.name}</h2>
-
-                        <HiddenModalDescription description={project.description} />
-
-                        <div className="modal-bottom">
-                            <a href={project.ref} target="_blank">
-                                <h3>{project.status}</h3>
-                            </a>
-                            <p className="close-icon" style={style} onClick={() => hiddeModal(project.name)}>&#10005;</p>
-                        </div>
-
-                    </div>
-                </div>
-            );})
-        }
-        </div>
-    );
+  return (
+    <div id="gallery-card" onClick={() => hiddenModal()}>
+      {projects.map((project, index) => {
+        return (
+          <div id={project.name} className="modal-card" key={index}>
+            <button
+              type="button"
+              className="btn-close btn-close-white h3"
+              aria-label="Close"
+              onClick={() => hiddenModal()}
+            ></button>
+            <div className="visual">
+              <img src={project.image} alt="" />
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  );
 }

@@ -191,6 +191,10 @@
 
 /*********************************************************************************/
 
+a {
+  text-decoration: none;
+}
+
 .navbar {
   padding: 0.5rem 1rem;
   align-items: center;
@@ -463,6 +467,7 @@
 }
 
 #about-container {
+  max-width: 1000px;
   padding: 8rem 0;
 }
 
@@ -474,10 +479,12 @@
 }
 
 #project-container {
+  max-width: 1000px;
   padding: 8rem 0;
 }
 
 #contact-container {
+  max-width: 1000px;
   padding: 8rem 0;
 }
 
@@ -508,28 +515,22 @@
 }
 
 .project-button {
-  background-color: #f8f9fa;
-  color: black;
-  border: 1px #122444 solid;
-  font-size: 20px;
-  position: absolute;
-  top: 70%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -70%);
-  -ms-transform: translate(-50%, -70%);
-  transform: translate(-50%, -70%);
-  text-align: center;
-}
-.project-button:hover {
   background-color: #122444;
   color: white;
+  border: 1px #122444 solid;
+  width: 120px;
+  height: 50px;
+}
+.project-button:hover {
+  background-color: #f8f9fa;
+  color: black;
 }
 
-.aguabg:hover .overlay,
-.testbg:hover .overlay,
-.todobg:hover .overlay {
-  opacity: 1;
-}
+// .aguabg:hover .overlay,
+// .testbg:hover .overlay,
+// .todobg:hover .overlay {
+//   opacity: 1;
+// }
 
 //overlay for gallery
 #gallery-card {
@@ -548,11 +549,11 @@
 .modal-card {
   display: none;
   position: absolute;
-  width: 45%;
-  top: 10%;
+  width: 75%;
+  top: 20%;
   left: 50%;
-  height: 85%;
-  background-color: #f8f9fa;
+  // height: 85%;
+  // background-color: #f8f9fa;
   z-index: 101;
   transform: translate(-50%, -10%);
   -ms-transform: translate(-50%, -10%);

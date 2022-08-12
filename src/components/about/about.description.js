@@ -37,14 +37,12 @@ export default function AboutDescription() {
           <ul>
             <li>Wordpress, Gnuboard 등 CMS 를 이용한 홈페이지 제작</li>
             <li>클라이언트/어드민 화면 기능 개발, API 데이터 연결</li>
-            <li>
-              기업용 홈페이지 풀스택 개발 : View(EJS 템플릿) + Nodejs, MySQL
-            </li>
+            <li>기업용 홈페이지 풀스택 개발 : EJS + Express + MySQL</li>
             <li>REST API 및 websocket(socket.io) 를 통한 실시간 데이터 통신</li>
             <li>Canvas API를 사용한 데이터 시각화</li>
             <li>
-              chart.js , tradingview(Lightweight), highchart 등 차트 라이브러리
-              사용
+              chart.js , tradingview(Lightweight), highchart 등 각종 차트
+              라이브러리 연동
             </li>
             <li>git, redmine, gira 등 협업 툴 사용</li>
           </ul>

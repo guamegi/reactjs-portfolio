@@ -7,11 +7,33 @@ export default function Career() {
       period: "2017.09 ~ 2022.03",
       project: [
         {
-          pName: "MyTradingInfo",
-          pPeriod: "2020.01 ~ 2022.02",
+          pName: "MyTradingInfo - 3차 업데이트",
+          pPeriod: "2021.06 ~ 2022.02",
           pDesc: [
-            "프론트엔드 개발(인터랙션, 기능 추가. 데이터 연결)",
-            "자체 개발한 차트 라이브러리 연동, 백엔드 api 실시간/조회, SNS 공유, socket.io, localstorage를 이용하여 유저별 차트 커스텀, 임베딩 기능, html5 canvas 로 주요 팩터별 ine차트를 제외한 나머지 차트 생성",
+            "전면 UI 교체 작업, 차트별 좋아요/임베딩 기능 추가",
+            "메뉴 추가: Compare / Correlation / News / Themes , 다국어(중국어) 작업, 대량거래 조건별 alarm 사운드 추가",
+            "Compare VS: 팩터별 라인 선택 비교 기능, News: 뉴스 api 연동 Link 제공",
+            "SNS 공유, 차트 특정 영역 캡쳐링 다운로드, 차트 '%' 유형 추가",
+          ],
+        },
+        {
+          pName: "MyTradingInfo - 2차 업데이트",
+          pPeriod: "2020.12 ~ 2021.05",
+          pDesc: [
+            "Factor 추가(open interest - [Binance, Bybit], bitcoin dominance), 거래소별 Significant Trade 기능 추가",
+            "localstorage 이용 유저별 차트 순서 커스터 마이징, How to use 페이지 추가",
+            "chart 내 factor별 line on/off 기능 추가",
+            "Socket API 기능별 리팩토링",
+          ],
+        },
+        {
+          pName: "MyTradingInfo",
+          pPeriod: "2020.06 ~ 2020.11",
+          pDesc: [
+            "비트코인 및 암호화폐 투자자를 위한 거래 정보 제공 서비스",
+            "클라이언트 포맷 설계, API(웹소켓) 핸들러 개발, 외부 API(챗봇) 연동",
+            "자체 개발한 차트 라이브러리 연동, socket.io 통신",
+            "Canvas API 이용 동적 Pie chart 생성",
           ],
         },
         {
@@ -19,7 +41,7 @@ export default function Career() {
           pPeriod: "2020.04 ~ 2020.08",
           pDesc: [
             "기업용 홈페이지 프론트 및 API 서버 개발",
-            "어드민 개발도 일정 부분 참여.",
+            "어드민 개발 부분 참여",
           ],
         },
         {

@@ -8,7 +8,7 @@ import Navbar from "./components/navbar.js";
 import Footer from "./components/footer.js";
 import About from "./views/about";
 import Projects from "./views/projects";
-import ContactMe from "./views/contact";
+import Career from "./views/career";
 
 import "./styles/index.scss";
 
@@ -20,7 +20,7 @@ root.render(
     <Background />
     <About />
     <Projects />
-    <ContactMe />
+    <Career />
     <Footer />
   </React.Fragment>
 );

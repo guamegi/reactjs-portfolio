@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 //import images
 import myPortFolio from "../../img/myPortfolio.png";
@@ -7,7 +7,7 @@ import chartBook from "../../img/chartBook.png";
 
 export default function ProjectList() {
   // My-portfolio, dynamic-chart, chart-book 순으로
-  const [projects] = useState([
+  const projects = [
     {
       no: 1,
       name: "My Portfolio",
@@ -49,7 +49,7 @@ export default function ProjectList() {
       url: "https://chart-book.herokuapp.com/portfolio",
       stack: "react, bootstrap, websocket, chartjs, tradingview-lightweight",
     },
-  ]);
+  ];
 
   function showModal(name) {
     const modalBG = document.getElementById("gallery-card");

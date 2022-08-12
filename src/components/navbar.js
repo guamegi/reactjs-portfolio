@@ -73,10 +73,10 @@ export default function Navbar() {
                 Projects
               </a>
               <a
-                onClick={() => SmoothScrollTo("my-contact")}
+                onClick={() => SmoothScrollTo("my-career")}
                 className="btn-style nav-item nav-link"
               >
-                Contact
+                Career
               </a>
             </div>
           </div>

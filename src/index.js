@@ -11,7 +11,8 @@ import Projects from "./views/projects";
 import Career from "./views/career";
 
 import "./styles/index.scss";
-
+// import "bootstrap/dist/css/bootstrap.min.css";
+// import $ from "jquery";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(

@@ -24,7 +24,7 @@ export default function Navbar() {
     <div>
       <nav
         id="navbar"
-        className="navbar navbar-b navbar-expand-lg navbar-light fixed-top navbar-trans"
+        className="navbar navbar-b navbar-expand-lg navbar-dark fixed-top navbar-trans"
       >
         <div className="container">
           <a

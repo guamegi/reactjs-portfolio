@@ -228,8 +228,8 @@ a {
 }
 
 .typing-text {
-  // width: 26ch;
-  // width: 430px;
+  width: 50ch;
+  // max-width: 450px;
   animation: typing 3s steps(40), blink 0.5s step-end infinite alternate;
   white-space: nowrap;
   // white-space: pre-wrap;

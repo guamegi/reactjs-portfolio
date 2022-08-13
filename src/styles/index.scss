@@ -229,7 +229,7 @@ a {
 
 .typing-text {
   // width: 26ch;
-  width: 430px;
+  // width: 430px;
   animation: typing 3s steps(40), blink 0.5s step-end infinite alternate;
   white-space: nowrap;
   // white-space: pre-wrap;
@@ -237,7 +237,8 @@ a {
   border-right: 3px solid;
   font-family: monospace;
   // font-size: 1em;
-  font-size: 20px;
+  font-size: 2vw;
+  max-inline-size: fit-content;
   // font-size: calc(1vw + 1vh + 0.5vmin);
 }
 @keyframes typing {

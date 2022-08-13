@@ -7,7 +7,7 @@ export default function AboutDescription() {
   //   const startedCareerYear = 2016 - 1;
   //   const myCareerPeriod = Number(new Date().getFullYear()) - startedCareerYear;
   return (
-    <div className="row align-items-center">
+    <div className="row align-items-center p-3">
       <SkillBars />
       <div className="col-12 col-lg-6">
         <img

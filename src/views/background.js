@@ -15,7 +15,7 @@ export default function Background() {
       <div id="snow2" />
       <div id="snow3" />
       <div className="top-container flex">
-        <span className="mb-4">Hello, I'm Kwon Min Ha</span>
+        <span className="descTitle mb-4">Hello, I'm Kwon Min Ha</span>
         <span className="typing-text">Front End Developer</span>
         <br />
         <button

@@ -37,18 +37,18 @@ export default function Career() {
           ],
         },
         {
-          pName: "기업 홈페이지 클라이언트 full-stack",
+          pName: "사내 홈페이지 full-stack",
           pPeriod: "2020.04 ~ 2020.08",
           pDesc: [
             "기업용 홈페이지 프론트 및 API 서버 개발",
-            "어드민 개발 부분 참여",
+            "Admin 개발 부분 참여",
           ],
         },
         {
           pName: "galaxy option 트레이딩 플랫폼",
           pPeriod: "2018.12 ~ 2019.12",
           pDesc: [
-            "fx 트레이딩 플랫폼 개발",
+            "forex 및 디지털 상품 트레이딩 플랫폼 개발",
             "솔루션을 이용한 프론트엔드 개발(퍼블리싱, 화면 인터랙션)",
           ],
         },
@@ -63,7 +63,7 @@ export default function Career() {
         {
           pName: "가상화폐 거래소 모바일 개발",
           pPeriod: "2017.11 ~ 2018.06",
-          pDesc: ["모바일 앱 개발 솔루션 'vivache' 사용 파견 개발"],
+          pDesc: ["모바일 앱 개발 솔루션 'vivace' 사용 파견 개발"],
         },
       ],
     },

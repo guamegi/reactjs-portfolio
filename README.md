@@ -1,8 +1,7 @@
 # React-Portfolio App
 
   
-
-Personal portfolio page [www.fdaviz.com](https://www.fdaviz.com/) built in React.
+리액트를 이용한 포트폴리오용 앱.
 
   
 

@@ -7,8 +7,7 @@ export default function Career() {
       period: "2017.09 ~ 2022.03",
       project: [
         {
-          pName:
-            "가상화폐 투자자를 위한 글로벌 거래 정보 제공 서비스 개발 - 3차",
+          pName: "가상화폐 글로벌 거래 정보 제공 서비스 개발 - 3차",
           pPeriod: "2021.06 ~ 2022.02",
           pDesc: [
             "https://www.mytradinginfo.com/",
@@ -19,8 +18,7 @@ export default function Career() {
           ],
         },
         {
-          pName:
-            "가상화폐 투자자를 위한 글로벌 거래 정보 제공 서비스 개발 - 2차",
+          pName: "가상화폐 글로벌 거래 정보 제공 서비스 개발 - 2차",
           pPeriod: "2020.12 ~ 2021.05",
           pDesc: [
             "Factor 추가(open interest - [Binance, Bybit], bitcoin dominance), 거래소별 Significant Trade 기능 추가",
@@ -30,8 +28,7 @@ export default function Career() {
           ],
         },
         {
-          pName:
-            "가상화폐 투자자를 위한 글로벌 거래 정보 제공 서비스 개발 - 1차",
+          pName: "가상화폐 글로벌 거래 정보 제공 서비스 개발 - 1차",
           pPeriod: "2020.06 ~ 2020.11",
           pDesc: [
             "비트코인 및 암호화폐 투자자를 위한 거래 정보 제공 서비스",

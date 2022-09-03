@@ -1,43 +1,60 @@
 # React-Portfolio App
 
-  
 
-Personal portfolio page [www.fdaviz.com](https://www.fdaviz.com/) built in React.
+Getting Started with Create React App
+This project was bootstrapped with Create React App.
 
-  
+Available Scripts
+In the project directory, you can run:
 
-## Building Process
+npm start
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in your browser.
 
-1. Installed [New React App](https://reactjs.org/docs/create-a-new-react-app.html) using Node JS.
+The page will reload when you make changes.
+You may also see any lint errors in the console.
 
-2. Migrated my [VanillaJS Portfolio Version](https://github.com/kodi24fever/vanillajs-portfolio) and migrated it into a new React Application.
+npm test
+Launches the test runner in the interactive watch mode.
+See the section about running tests for more information.
 
-3. The first approach was to use libraries to create animations because creating my own was time consuming. For that reason, I decided to use [Wow.js](https://wowjs.uk/) and [Animate.css](https://daneden.github.io/animate.css/) libraries.
+npm run build
+Builds the app for production to the build folder.
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-4. Used React Props to manage components references in the application and share components details to create [SmoothScroll](https://css-tricks.com/snippets/jquery/smooth-scrolling/) usign my own code.
+The build is minified and the filenames include the hashes.
+Your app is ready to be deployed!
 
-5. Most of the page uses Bootstrap, except for the modal gallery that has my own CSS3 flex-box code.
+See the section about deployment for more information.
 
-6. Created different modals for the gallery project and using [React Event Handlers](https://reactjs.org/docs/handling-events.html) I could show each project modal.
+npm run eject
+Note: this is a one-way operation. Once you eject, you can't go back!
 
-7. The form uses [formsfree.io](https://formspree.io/) for the backend submission.
+If you aren't satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project.
 
-8. I used images from [unsplash](https://unsplash.com) which are free to use and icons from [flaticon](https://www.flaticon.com/) which are also free to use.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except eject will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-9. I wanted to create an amazing animated background at the top of the page, so I used some help from [codepen.io](https://codepen.io/saransh/pen/BKJun) and adapted the code to my website.
+You don't have to ever use eject. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Challenges that took me some time to solve
+Learn More
+You can learn more in the Create React App documentation.
 
-1. Implementing Wow.js + Animate.css was difficult at the beginning, but worth it. It takes time to make it work with your app, yet it takes less time than building your own libraries.
+To learn React, check out the React documentation.
 
-2. Sharing DOM component details such as height, offsetTops, etc, between other components was a bit difficult because [React Refs](https://reactjs.org/docs/refs-and-the-dom.html) had to match parent containers' ids. That took me the long time to figure out.
+Code Splitting
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-3. After using Bootstrap for a while I had to re learn some CSS3 tricks like flex-box and how to use @keyframes + animation.
+Analyzing the Bundle Size
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-## Updating NPMs
+Making a Progressive Web App
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-1. Removed node-sass(deprecated) library to use sass for bootstrap compatibility.
+Advanced Configuration
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-## Conclusion
+Deployment
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-Thanks for visiting my react-portfolio-website and for taking time to read this!
+npm run build fails to minify
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

@@ -7,9 +7,11 @@ export default function Career() {
       period: "2017.09 ~ 2022.03",
       project: [
         {
-          pName: "MyTradingInfo - 3차 업데이트",
+          pName:
+            "가상화폐 투자자를 위한 글로벌 거래 정보 제공 서비스 개발 - 3차",
           pPeriod: "2021.06 ~ 2022.02",
           pDesc: [
+            "https://www.mytradinginfo.com/",
             "전면 UI 교체 작업, 차트별 좋아요/임베딩 기능 추가",
             "메뉴 추가: Compare / Correlation / News / Themes , 다국어(중국어) 작업, 대량거래 조건별 alarm 사운드 추가",
             "Compare VS: 팩터별 라인 선택 비교 기능, News: 뉴스 api 연동 Link 제공",
@@ -17,7 +19,8 @@ export default function Career() {
           ],
         },
         {
-          pName: "MyTradingInfo - 2차 업데이트",
+          pName:
+            "가상화폐 투자자를 위한 글로벌 거래 정보 제공 서비스 개발 - 2차",
           pPeriod: "2020.12 ~ 2021.05",
           pDesc: [
             "Factor 추가(open interest - [Binance, Bybit], bitcoin dominance), 거래소별 Significant Trade 기능 추가",
@@ -27,7 +30,8 @@ export default function Career() {
           ],
         },
         {
-          pName: "MyTradingInfo",
+          pName:
+            "가상화폐 투자자를 위한 글로벌 거래 정보 제공 서비스 개발 - 1차",
           pPeriod: "2020.06 ~ 2020.11",
           pDesc: [
             "비트코인 및 암호화폐 투자자를 위한 거래 정보 제공 서비스",
@@ -37,27 +41,27 @@ export default function Career() {
           ],
         },
         {
-          pName: "사내 홈페이지 full-stack",
+          pName: "트레이딩 플랫폼 해외 법인 홈페이지 개발",
           pPeriod: "2020.04 ~ 2020.08",
           pDesc: [
             "기업용 홈페이지 프론트 및 API 서버 개발",
-            "Admin 개발 부분 참여",
+            "Admin 개발: 참여율 10%",
           ],
         },
         {
-          pName: "galaxy option 트레이딩 플랫폼",
+          pName: "트레이딩 플랫폼 개발",
           pPeriod: "2018.12 ~ 2019.12",
           pDesc: [
-            "forex 및 디지털 상품 트레이딩 플랫폼 개발",
+            "Forex 및 디지털 상품 트레이딩 플랫폼 개발",
             "솔루션을 이용한 프론트엔드 개발(퍼블리싱, 화면 인터랙션)",
           ],
         },
         {
-          pName: "하이브리드 앱 안드로이드 APK 패키징",
+          pName: "모바일 하이브리드 앱 유지보수",
           pPeriod: "2018.06 ~ 2018.11",
           pDesc: [
             "웹뷰 기반 모의투자 안드로이드 앱(하이브리드) version 관리",
-            "패키징 작업 및 유지보수",
+            "Packing & Deployment",
           ],
         },
         {
@@ -69,12 +73,12 @@ export default function Career() {
     },
     {
       comp: "(주)포플즈",
-      period: "2016.02 ~ 2017.09",
+      period: "2015.07 ~ 2017.09",
       project: [
         {
-          pName: "monitoring tool 퍼블리싱",
+          pName: "Back Office 유지보수",
           period: "2016.04 ~ 2017.08",
-          pDesc: ["back office UI 퍼블리싱 유지보수"],
+          pDesc: ["DB 모니터링 시스템 UI 유지보수"],
         },
       ],
     },

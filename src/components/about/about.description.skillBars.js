@@ -4,19 +4,19 @@ export default function SkillBars() {
   const [technologies, setTechnologies] = useState([
     {
       category: "Front-End",
-      name: "HTML5",
+      name: "HTML5 / CSS3",
       percentage: 85,
       color: "",
     },
     {
       category: "Front-End",
-      name: "CSS3",
-      percentage: 80,
+      name: "Javascript",
+      percentage: 85,
       color: "",
     },
     {
       category: "Front-End",
-      name: "Javascript",
+      name: "JQuery",
       percentage: 85,
       color: "",
     },
@@ -34,12 +34,6 @@ export default function SkillBars() {
     },
     {
       category: "Front-End",
-      name: "JQuery",
-      percentage: 85,
-      color: "",
-    },
-    {
-      category: "Front-End",
       name: "ReactJS",
       percentage: 70,
       color: "",
@@ -52,7 +46,7 @@ export default function SkillBars() {
     },
     {
       category: "Back-End",
-      name: "MY-SQL",
+      name: "MySQL",
       percentage: 70,
       color: "bg-success",
     },

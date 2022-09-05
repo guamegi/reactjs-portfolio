@@ -13,42 +13,42 @@ export default function ProjectList() {
       name: "My Portfolio",
       period: "2022.07 ~ 08",
       image: myPortFolio,
-      desc: `이력서의 한정된 공간에 자신을 표현하기에는 부족하다는 생각이 들었습니다. 
-      해당 프로젝트는 어떤 기술과 경험을 갖고 있는지 보여주기 위해 만들게 되었습니다.`,
+      desc: `이력서의 텍스트 공간을 벗어나 좀더 시각적으로 표현하기 위해 제작.`,
       func: "css 및 wow.js, animate.css를 적용한 간단한 애니메이션",
       github: "https://github.com/guamegi/reactjs-portfolio",
       url: "https://guamegi.github.io/reactjs-portfolio/",
-      stack: "react, jquery, bootstrap, sass",
+      stack: "React.js, Bootstrap, SCSS",
     },
     {
       no: 2,
       name: "Dynamic Chart Sample",
-      period: "2022.07",
+      period: "2019.07 ~ 12, 2022.07 ~",
       image: dynamicChart,
       desc: `실시간 차트를 이용한 거래 플랫폼을 검토하기 위해 
-      2인이 Canvas를 사용하여 프로토타입으로 만들었다가 폐기된 소스를 재활용 중에 있습니다.\n
+      2인이 Canvas api를 사용하여 19년에 프로토타입 제작. 이 후, 중단된 레거시 소스를 확장하여 개발 검토 중.\n
       샘플 데이터를 생성해 차트 애니메이션을 적용하여 동적 차트 생성과 서큘러 큐
-      방식의 데이터 활용 등을 경험하였습니다.
+      방식의 데이터 구조 활용.
       `,
       func: "샘플 데이터를 활용한 동적 차트 생성 및 차트 설정",
-      github: "https://github.com/guamegi/dynamic-chart-sample",
+      // github: "https://github.com/guamegi/dynamic-chart-sample",
       url: "https://guamegi.github.io/dynamic-chart-sample/",
-      stack: "html, css, javascript, canvas",
+      stack: "HTML5, CSS3, Javascript",
     },
     {
       no: 3,
       name: "ChartBook",
       period: "2022.05 ~ 06",
       image: chartBook,
-      desc: `ReactJS를 공부하며 개발한 개인 프로젝트 입니다.
+      desc: `ReactJS를 공부하며 개발한 개인 프로젝트.
       내가 보유한 주식과 가상화폐의 총 자산 현황을 파악하기 위해 각각의 앱을 들어가서 계산해야 하는 
-      불편함이 계기가 되어 개발하게 되었습니다.
+      불편함이 계기가 되어 개발.
       
       `,
-      func: "가상화폐 웹소켓 실시간 시세, 주식 시세 크롤링, chart 라이브러리 활용해 차트생성",
+      func: "가상화폐 웹소켓 실시간 시세, 주식 시세 크롤링, chart 라이브러리 활용 차트생성",
       github: "https://github.com/guamegi/chart-book-nodejs",
       url: "http://chartbook-env.eba-i9kwj8ti.ap-northeast-2.elasticbeanstalk.com/portfolio",
-      stack: "react, bootstrap, websocket, chartjs, tradingview-lightweight",
+      stack:
+        "React.js, Bootstrap, Websocket, Chart.js, Tradingview-lightweight, AWS-ELB, Heroku",
     },
   ];
 

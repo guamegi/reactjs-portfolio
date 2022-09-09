@@ -3,9 +3,14 @@ import React, { useEffect, useState } from "react";
 import myPortFolio from "../../img/myPortfolio.png";
 import dynamicChart from "../../img/dynamicChart.png";
 import chartBook from "../../img/chartBook.png";
+import imageClassification from "../../img/imageClassification.png";
 
 export default function HiddenModals() {
   const [projects] = useState([
+    {
+      name: "Image Classification",
+      image: imageClassification,
+    },
     {
       name: "My Portfolio",
       image: myPortFolio,

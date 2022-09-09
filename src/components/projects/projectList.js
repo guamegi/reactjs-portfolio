@@ -4,12 +4,25 @@ import React from "react";
 import myPortFolio from "../../img/myPortfolio.png";
 import dynamicChart from "../../img/dynamicChart.png";
 import chartBook from "../../img/chartBook.png";
+import imageClassification from "../../img/imageClassification.png";
 
 export default function ProjectList() {
   // My-portfolio, dynamic-chart, chart-book 순으로
   const projects = [
     {
-      no: 1,
+      no: 4,
+      name: "Image Classification",
+      period: "2022.09",
+      image: imageClassification,
+      desc: `이미지를 분류해 동적 object로 만드는 것에 관심. 관련 방법을 알아보던 중 머신러닝 모델을 이용하여 구현 가능성을 찾게 됨. 
+      먼저 간단한 앱을 만들어 보는데 의의. TensorFlow.js 모델을 활용해 업로드 한 이미지를 분석.`,
+      func: "TensorFlow.js로 업로드 한 이미지 분석",
+      github: "https://github.com/guamegi/image-classification",
+      url: "https://guamegi.github.io/image-classification/",
+      stack: "HTML5, CSS3, Javascript, TensorFlow.js",
+    },
+    {
+      no: 3,
       name: "My Portfolio",
       period: "2022.07 ~ 08",
       image: myPortFolio,
@@ -35,7 +48,7 @@ export default function ProjectList() {
       stack: "HTML5, CSS3, Javascript",
     },
     {
-      no: 3,
+      no: 1,
       name: "ChartBook",
       period: "2022.05 ~ 06",
       image: chartBook,

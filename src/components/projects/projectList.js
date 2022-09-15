@@ -43,7 +43,7 @@ export default function ProjectList() {
       방식의 데이터 구조 활용.
       `,
       func: "샘플 데이터를 활용한 동적 차트 생성 및 차트 설정",
-      // github: "https://github.com/guamegi/dynamic-chart-sample",
+      github: "https://github.com/guamegi/dynamic-chart-sample",
       url: "https://guamegi.github.io/dynamic-chart-sample/",
       stack: "HTML5, CSS3, Javascript",
     },

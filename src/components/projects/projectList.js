@@ -26,7 +26,7 @@ export default function ProjectList() {
       name: "My Portfolio",
       period: "2022.07 ~ 08",
       image: myPortFolio,
-      desc: `이력서의 텍스트 공간을 벗어나 좀더 시각적으로 표현하기 위해 제작.`,
+      desc: `이력 & 사이드 프로젝트 내용을 담은 포트폴리오 사이트. 이력서의 제한된 공간을 벗어나 좀더 시각적으로 표현하기 위해 제작.`,
       func: "css 및 wow.js, animate.css를 적용한 간단한 애니메이션",
       github: "https://github.com/guamegi/reactjs-portfolio",
       url: "https://guamegi.github.io/reactjs-portfolio/",
@@ -37,7 +37,7 @@ export default function ProjectList() {
       name: "Dynamic Chart Sample",
       period: "2019.07 ~ 12, 2022.07 ~",
       image: dynamicChart,
-      desc: `실시간 차트를 이용한 거래 플랫폼을 검토하기 위해 
+      desc: `실시간 차트를 이용한 트레이딩 플랫폼을 검토하기 위해 
       2인이 Canvas api를 사용하여 19년에 프로토타입 제작. 이 후, 중단된 레거시 소스를 확장하여 개발 검토 중.\n
       샘플 데이터를 생성해 차트 애니메이션을 적용하여 동적 차트 생성과 서큘러 큐
       방식의 데이터 구조 활용.
@@ -52,8 +52,9 @@ export default function ProjectList() {
       name: "ChartBook",
       period: "2022.05 ~ 06",
       image: chartBook,
-      desc: `ReactJS를 공부하며 개발한 개인 프로젝트.
-      내가 보유한 주식과 가상화폐의 총 자산 현황을 파악하기 위해 각각의 앱을 들어가서 계산해야 하는 
+      desc: `ReactJS를 사용해 개발한 개인 프로젝트.
+      자신이 보유한 주식과 가상화폐의 총 자산 현황을 실시간성으로 파악하는 서비스.
+      총 자산 현황을 파악하기 위해 각각의 앱을 들어가서 계산해야 하는 
       불편함이 계기가 되어 개발.
       
       `,
@@ -61,7 +62,7 @@ export default function ProjectList() {
       github: "https://github.com/guamegi/chart-book-nodejs",
       url: "http://chartbook-env.eba-i9kwj8ti.ap-northeast-2.elasticbeanstalk.com/portfolio",
       stack:
-        "React.js, Bootstrap, Websocket, Chart.js, Tradingview-lightweight, AWS-ELB, Heroku",
+        "React.js, Bootstrap, Websocket, Chart.js, Tradingview-lightweight, AWS-ELB, Heroku, zustand",
     },
   ];
 

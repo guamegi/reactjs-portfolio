@@ -26,7 +26,7 @@ export default function ProjectList() {
       name: "My Portfolio",
       period: "2022.07 ~ 08",
       image: myPortFolio,
-      desc: `이력 & 사이드 프로젝트 내용을 담은 포트폴리오 사이트. 이력서의 제한된 공간을 벗어나 좀더 시각적으로 표현하기 위해 제작.`,
+      desc: `간략한 이력과 사이드 프로젝트 내용을 담은 포트폴리오 사이트. 이력서의 제한된 공간을 벗어나 좀더 시각적으로 표현하기 위해 제작.`,
       func: "css 및 wow.js, animate.css를 적용한 간단한 애니메이션",
       github: "https://github.com/guamegi/reactjs-portfolio",
       url: "https://guamegi.github.io/reactjs-portfolio/",
@@ -38,14 +38,14 @@ export default function ProjectList() {
       period: "2019.07 ~ 12, 2022.07 ~",
       image: dynamicChart,
       desc: `실시간 차트를 이용한 트레이딩 플랫폼을 검토하기 위해 
-      2인이 Canvas api를 사용하여 19년에 프로토타입 제작. 이 후, 중단된 레거시 소스를 확장하여 개발 검토 중.\n
+      2인이 Canvas api를 사용하여 프로토타입 개발. 이 후, 임시 중단된 레거시 코드 활용 검토 중.
       샘플 데이터를 생성해 차트 애니메이션을 적용하여 동적 차트 생성과 서큘러 큐
       방식의 데이터 구조 활용.
       `,
-      func: "샘플 데이터를 활용한 동적 차트 생성 및 차트 설정",
+      func: "샘플 데이터를 이용한 동적 차트 생성 및 차트 설정",
       github: "https://github.com/guamegi/dynamic-chart-sample",
       url: "https://guamegi.github.io/dynamic-chart-sample/",
-      stack: "HTML5, CSS3, Javascript",
+      stack: "HTML5, CSS3, Javascript, HTML5 Canvas",
     },
     {
       no: 1,

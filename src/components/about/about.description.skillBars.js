@@ -28,19 +28,19 @@ export default function SkillBars() {
     },
     {
       category: "Front-End",
-      name: "Bootstrap",
+      name: "Bootstrap / Tailwindcss / SCSS",
       percentage: 75,
       color: "",
     },
     {
       category: "Front-End",
-      name: "ReactJS",
+      name: "ReactJS / NextJS",
       percentage: 70,
       color: "",
     },
     {
       category: "Back-End",
-      name: "NodeJS",
+      name: "ExpressJS",
       percentage: 75,
       color: "bg-success",
     },
@@ -65,7 +65,7 @@ export default function SkillBars() {
     {
       category: "Version Control",
       name: "Git",
-      percentage: 80,
+      percentage: 85,
       color: "bg-warning",
     },
     {
@@ -77,7 +77,7 @@ export default function SkillBars() {
     {
       category: "Communication",
       name: "Redmine",
-      percentage: 80,
+      percentage: 85,
       color: "bg-secondary",
     },
     {

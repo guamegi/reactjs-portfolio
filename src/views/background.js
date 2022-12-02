@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import WOW from "wowjs";
-
 import SmoothScrollTo from "../hooks/smoothScrollTo";
 
 export default function Background() {

@@ -1,6 +1,4 @@
 import React from "react";
-
-//import images
 import myPortFolio from "../../img/myPortfolio.png";
 import dynamicChart from "../../img/dynamicChart.png";
 import chartBook from "../../img/chartBook.png";
@@ -118,7 +116,11 @@ export default function ProjectList() {
                         <tr>
                           <th>GitHub</th>
                           <td>
-                            <a href={project.github} target="_blank">
+                            <a
+                              href={project.github}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
                               {project.github}
                             </a>
                           </td>
@@ -128,7 +130,11 @@ export default function ProjectList() {
                         <tr>
                           <th>URL</th>
                           <td>
-                            <a href={project.url} target="_blank">
+                            <a
+                              href={project.url}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
                               {project.url}
                             </a>
                           </td>

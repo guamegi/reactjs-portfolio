@@ -1,7 +1,5 @@
-import React, { useState } from "react";
-
 export default function SkillBars() {
-  const [technologies, setTechnologies] = useState([
+  const technologies = [
     {
       category: "Front-End",
       name: "HTML5 / CSS3",
@@ -92,7 +90,7 @@ export default function SkillBars() {
       percentage: 70,
       color: "bg-secondary",
     },
-  ]);
+  ];
 
   return (
     <div className={"col-12 col-sm-12 col-md-12 col-lg-6 wow fadeIn"}>
@@ -100,7 +98,7 @@ export default function SkillBars() {
         return (
           <div key={index}>
             <div className="skills-category">
-              {index == 0 ? (
+              {index === 0 ? (
                 <div>{tech.category}</div>
               ) : tech.category !== all[index - 1].category ? (
                 <div>{tech.category}</div>

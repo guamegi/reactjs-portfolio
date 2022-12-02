@@ -1,5 +1,4 @@
 import React from "react";
-
 import HiddenModals from "../components/projects/hiddenModals";
 import ProjectList from "../components/projects/projectList";
 

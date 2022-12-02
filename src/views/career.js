@@ -70,7 +70,7 @@ export default function Career() {
     },
     {
       comp: "(주)포플즈",
-      period: "2015.07 ~ 2017.09",
+      period: "2017.01 ~ 2017.09",
       project: [
         {
           pName: "사내 Back Office 유지보수",

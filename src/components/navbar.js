@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-
 import SmoothScrollTo from "../hooks/smoothScrollTo";
 
 export default function Navbar() {

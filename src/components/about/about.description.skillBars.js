@@ -27,13 +27,13 @@ export default function SkillBars() {
     {
       category: "Front-End",
       name: "Bootstrap / Tailwindcss / SCSS",
-      percentage: 75,
+      percentage: 80,
       color: "",
     },
     {
       category: "Front-End",
       name: "ReactJS / NextJS",
-      percentage: 70,
+      percentage: 80,
       color: "",
     },
     {
@@ -57,7 +57,7 @@ export default function SkillBars() {
     {
       category: "Mobile App",
       name: "React Native",
-      percentage: 70,
+      percentage: 75,
       color: "bg-info",
     },
     {

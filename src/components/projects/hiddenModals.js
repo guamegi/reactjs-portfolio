@@ -1,29 +1,7 @@
 import React, { useEffect } from "react";
-import myPortFolio from "../../img/myPortfolio.png";
-import dynamicChart from "../../img/dynamicChart.png";
-import chartBook from "../../img/chartBook.png";
-import imageClassification from "../../img/imageClassification.png";
+import { projects } from "../../data/projects";
 
 export default function HiddenModals() {
-  const projects = [
-    {
-      name: "Image Classification",
-      image: imageClassification,
-    },
-    {
-      name: "My Portfolio",
-      image: myPortFolio,
-    },
-    {
-      name: "Dynamic Chart Sample",
-      image: dynamicChart,
-    },
-    {
-      name: "ChartBook",
-      image: chartBook,
-    },
-  ];
-
   // 이벤트 버블링 방지
   useEffect(() => {
     const visualEl = document.getElementsByClassName("visual");

@@ -3,8 +3,32 @@ import dynamicChart from "../img/dynamicChart.png";
 import chartBook from "../img/chartBook.png";
 import imageClassification from "../img/imageClassification.png";
 import chartSimulator from "../img/chartSimulator.png";
+import mooving from "../img/mooving.png";
+import sallyTarot from "../img/sallyTarot.jpeg";
 
 export const projects = [
+  {
+    no: 7,
+    name: "Sally's Tarot",
+    period: "2023.04 ~ 05",
+    image: sallyTarot,
+    desc: `타로 카드를 사용하여 미래를 예측하는 모바일 타로 앱. 두번째 리액트 네이티브 앱 개발로 수익화 목적(전면 광고)으로 기획 및 개발. 구글 플레이 배포 후 반응봐서 앱 스토어에도 올릴지 결정 예정.`,
+    func: "1 or 3 card 설정/선택, 선택한 카드 저장, 공유 기능, 다국어 지원",
+    // github: "https://github.com/guamegi/chart-simulator",
+    url: "https://play.google.com/store/apps/details?id=com.guamegi.sallytarot",
+    stack: "React Native(CRNA), Styled-Components, i18next, Realm",
+  },
+  {
+    no: 6,
+    name: "Mooving",
+    period: "2023.03 ~ 04",
+    image: mooving,
+    desc: `리액트 네이티브를 이용해서 구글 플레이에 배포한 첫 모바일 앱. 영화와 TV 프로그램 정보를 제공. TMDB에서 무료 API 이용.`,
+    func: "영화, TV 프로그램 정보 제공, 검색 기능, 인앱브라우저, Light/Dark 테마 지원",
+    github: "https://github.com/guamegi/mooving",
+    url: "https://play.google.com/store/apps/details?id=com.guamegi.mooving",
+    stack: "React Native, TypeScript, Styled-Components, react-query",
+  },
   {
     no: 5,
     name: "Chart Simulator",

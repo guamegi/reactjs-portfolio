@@ -20,6 +20,12 @@ export default function SkillBars() {
     },
     {
       category: "Front-End",
+      name: "Vue.js",
+      percentage: 80,
+      color: "",
+    },
+    {
+      category: "Front-End",
       name: "Wordpress",
       percentage: 75,
       color: "",

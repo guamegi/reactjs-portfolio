@@ -19,7 +19,7 @@ root.render(
     <Background />
     <About />
     <Projects />
-    <Career />
+    {/* <Career /> */}
     <Footer />
   </React.Fragment>
 );

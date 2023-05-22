@@ -1,11 +1,14 @@
 import React from "react";
 
-import myImage from "../../img/myImage.jpg";
+import myImage from "../../img/myImage.png";
 import SkillBars from "./about.description.skillBars";
 
 export default function AboutDescription() {
   //   const startedCareerYear = 2016 - 1;
   //   const myCareerPeriod = Number(new Date().getFullYear()) - startedCareerYear;
+  const width = 150;
+  const height = 150;
+  const radius = 50;
   return (
     <div className="row align-items-center p-3">
       <SkillBars />
@@ -13,11 +16,11 @@ export default function AboutDescription() {
         <img
           className={"img-fluid"}
           src={myImage}
-          alt="Portfolio Image"
+          alt="myImage"
           style={{
-            borderRadius: 50 + "%",
-            height: 200 + "px",
-            width: 200 + "px",
+            borderRadius: `${radius}%`,
+            height: `${height}px`,
+            width: `${width}px`,
           }}
         />
         <br />

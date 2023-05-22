@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/reactjs-portfolio/static/css/main.436d067f.css",
-    "main.js": "/reactjs-portfolio/static/js/main.3df22a2c.js",
+    "main.js": "/reactjs-portfolio/static/js/main.312ef9f5.js",
     "static/media/chartSimulator.png": "/reactjs-portfolio/static/media/chartSimulator.256ca6e767f37d8bcd42.png",
     "static/media/dynamicChart.png": "/reactjs-portfolio/static/media/dynamicChart.f6aac25325895332ba22.png",
     "static/media/imageClassification.png": "/reactjs-portfolio/static/media/imageClassification.373eae7c3f2bb38a7b3d.png",
     "static/media/chartBook.png": "/reactjs-portfolio/static/media/chartBook.0bd227ddec4df30a2a2e.png",
+    "static/media/myImage.png": "/reactjs-portfolio/static/media/myImage.34471466e8d56f96af8a.png",
     "static/media/mooving.png": "/reactjs-portfolio/static/media/mooving.08e7720be899b1758767.png",
     "static/media/myPortfolio.png": "/reactjs-portfolio/static/media/myPortfolio.fb8b9f26390e29b8417e.png",
     "static/media/sallyTarot.jpeg": "/reactjs-portfolio/static/media/sallyTarot.1a708e8e9c328fe1f9b8.jpeg",
-    "static/media/myImage.jpg": "/reactjs-portfolio/static/media/myImage.a4b85512e989a4ea23fe.jpg",
     "index.html": "/reactjs-portfolio/index.html"
   },
   "entrypoints": [
     "static/css/main.436d067f.css",
-    "static/js/main.3df22a2c.js"
+    "static/js/main.312ef9f5.js"
   ]
 }

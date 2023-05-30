@@ -1,5 +1,13 @@
 import React, { useEffect } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import SwiperCore, { Navigation, Pagination } from "swiper";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+
 import { projects } from "../../data/projects";
+
+SwiperCore.use([Navigation, Pagination]);
 
 export default function HiddenModals() {
   // 이벤트 버블링 방지
@@ -11,6 +19,12 @@ export default function HiddenModals() {
       });
     }
   }, []);
+
+  const swiperStyle = {
+    // width: "800px",
+    height: "400px",
+    objectFit: "cover",
+  };
 
   function hiddenModal() {
     const modalBG = document.getElementById("gallery-card");
@@ -34,7 +48,32 @@ export default function HiddenModals() {
               onClick={() => hiddenModal()}
             ></button>
             <div className="visual">
-              <img src={project.image} alt="" />
+              <Swiper
+                style={swiperStyle}
+                spaceBetween={50}
+                slidesPerView={1}
+                scrollbar={{ draggable: true }}
+                navigation
+                pagination={{ clickable: true }}
+                loop
+              >
+                {project.images.map((image, idx) => {
+                  return (
+                    <SwiperSlide key={idx}>
+                      <img
+                        src={image}
+                        alt=""
+                        style={{
+                          height: "100%",
+                          objectFit: "contain",
+                          display: "block",
+                          margin: "0 auto",
+                        }}
+                      />
+                    </SwiperSlide>
+                  );
+                })}
+              </Swiper>
             </div>
           </div>
         );

@@ -32,7 +32,7 @@ export default function AboutDescription() {
         <div className="mytext">
           <h4>주요 경험</h4>
           <ul>
-            <li>클라이언트/어드민 화면 기능 개발, API 데이터 바인딩</li>
+            <li>클라이언트/어드민 기능 개발, API 데이터 바인딩</li>
             <li>API 클라이언트 포맷 설계, 웹소켓 핸들러 개발</li>
             <li>기업용 홈페이지 풀스택 개발: EJS + Express + MySQL</li>
             <li>REST API 및 websocket(socket.io) 를 통한 데이터 통신</li>
@@ -41,7 +41,7 @@ export default function AboutDescription() {
               chart.js , tradingview(Lightweight), highchart 등 각종 차트
               라이브러리 연동
             </li>
-            <li>git, redmine, gira 등 협업 툴 사용</li>
+            <li>협업 툴: git, redmine, gira, slack</li>
           </ul>
         </div>
       </div>

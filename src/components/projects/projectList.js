@@ -31,7 +31,7 @@ export default function ProjectList() {
                 <div className="col-md-1"></div>
                 <div
                   className={"testbg col-12 col-sm-12 col-md-4 wow fadeIn"}
-                  style={addbackground(project.image)}
+                  style={addbackground(project.images[0])}
                 ></div>
                 <div className="col-md-1"></div>
                 {/* 설명, 스택 */}

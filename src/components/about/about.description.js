@@ -1,11 +1,8 @@
 import React from "react";
-
 import myImage from "../../img/myImage.png";
 import SkillBars from "./about.description.skillBars";
 
 export default function AboutDescription() {
-  //   const startedCareerYear = 2016 - 1;
-  //   const myCareerPeriod = Number(new Date().getFullYear()) - startedCareerYear;
   const width = 150;
   const height = 150;
   const radius = 50;
@@ -26,9 +23,6 @@ export default function AboutDescription() {
         <br />
         <br />
         <p className="mytext">
-          {/* 저는 {myCareerPeriod}년차 웹 개발자입니다. 코드를 사용해 아이디어를
-          현실로 바꾸는 것을 좋아합니다.
-          <br /> */}
           코드를 사용해 아이디어를 현실로 바꾸는 것을 좋아합니다.
           <br />
           JavaScript 및 라이브러리를 이용해 화면 인터랙션을 다루고, BackEnd와

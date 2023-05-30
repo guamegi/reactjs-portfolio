@@ -7,7 +7,7 @@ import Navbar from "./components/navbar.js";
 import Footer from "./components/footer.js";
 import About from "./views/about";
 import Projects from "./views/projects";
-import Career from "./views/career";
+// import Career from "./views/career";
 
 import "./styles/index.scss";
 

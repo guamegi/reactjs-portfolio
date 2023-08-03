@@ -76,12 +76,6 @@ export default function Navbar() {
               >
                 Projects
               </a>
-              {/* <a
-                onClick={() => SmoothScrollTo("my-career")}
-                className="btn-style nav-item nav-link"
-              >
-                Career
-              </a> */}
             </div>
           </div>
         </div>

@@ -27,6 +27,7 @@ export default function Navbar() {
       >
         <div className="container">
           <a
+            href={() => false}
             className="home-style navbar-brand"
             onClick={() => {
               window.scrollTo({
@@ -59,18 +60,21 @@ export default function Navbar() {
           >
             <div className="navbar-nav">
               <a
+                href={() => false}
                 onClick={() => SmoothScrollTo("my-background")}
                 className="btn-style nav-item nav-link"
               >
                 Home
               </a>
               <a
+                href={() => false}
                 onClick={() => SmoothScrollTo("about-container")}
                 className="btn-style nav-item nav-link"
               >
                 About
               </a>
               <a
+                href={() => false}
                 onClick={() => SmoothScrollTo("my-projects")}
                 className="btn-style nav-item nav-link"
               >

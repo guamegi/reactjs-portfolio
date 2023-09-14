@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/reactjs-portfolio/static/css/main.ce5a9a12.css",
-    "main.js": "/reactjs-portfolio/static/js/main.a1691600.js",
+    "main.css": "/reactjs-portfolio/static/css/main.672902bc.css",
+    "main.js": "/reactjs-portfolio/static/js/main.e55f4590.js",
     "static/media/sallyScreenshot.png": "/reactjs-portfolio/static/media/sallyScreenshot.8032c86aeaf253f846cd.png",
     "static/media/moovingScreenshot.png": "/reactjs-portfolio/static/media/moovingScreenshot.033d6af12c6e8c47d05b.png",
     "static/media/chartSimulator.png": "/reactjs-portfolio/static/media/chartSimulator.256ca6e767f37d8bcd42.png",
@@ -10,12 +10,14 @@
     "static/media/chartBook.png": "/reactjs-portfolio/static/media/chartBook.0bd227ddec4df30a2a2e.png",
     "static/media/myImage.png": "/reactjs-portfolio/static/media/myImage.34471466e8d56f96af8a.png",
     "static/media/mooving.png": "/reactjs-portfolio/static/media/mooving.08e7720be899b1758767.png",
+    "static/media/typing2.png": "/reactjs-portfolio/static/media/typing2.a0284f9037e69927b60c.png",
     "static/media/myPortfolio.png": "/reactjs-portfolio/static/media/myPortfolio.fb8b9f26390e29b8417e.png",
+    "static/media/typing1.png": "/reactjs-portfolio/static/media/typing1.546fe3fa674785e6695e.png",
     "static/media/sallyTarot.jpeg": "/reactjs-portfolio/static/media/sallyTarot.1a708e8e9c328fe1f9b8.jpeg",
     "index.html": "/reactjs-portfolio/index.html"
   },
   "entrypoints": [
-    "static/css/main.ce5a9a12.css",
-    "static/js/main.a1691600.js"
+    "static/css/main.672902bc.css",
+    "static/js/main.e55f4590.js"
   ]
 }

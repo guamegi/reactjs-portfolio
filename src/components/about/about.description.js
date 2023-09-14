@@ -43,6 +43,10 @@ export default function AboutDescription() {
               인덱스 변경), Drag&Drop, 양식 CRUD, Print API 연동하여 에디터
               화면을 프린터로 실물 출력.
             </li>
+            <li>
+              react native, flutter 등 크로스 플랫폼으로 모바일 앱 개발 및 배포
+              경험
+            </li>
           </ul>
         </div>
       </div>

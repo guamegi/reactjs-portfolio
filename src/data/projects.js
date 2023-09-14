@@ -7,8 +7,21 @@ import mooving from "../img/mooving.png";
 import moovingScreenshot from "../img/moovingScreenshot.png";
 import sallyTarot from "../img/sallyTarot.jpeg";
 import sallyScreenshot from "../img/sallyScreenshot.png";
+import typing1 from "../img/typing1.png";
+import typing2 from "../img/typing2.png";
 
 export const projects = [
+  {
+    no: 8,
+    name: "영어 타자 연습",
+    period: "2023.09",
+    images: [typing1, typing2],
+    desc: "영어 단어, 문장 타자 연습기. random (word/quote) api 호출하여 영어 단어나 문장을 데이터로 활용",
+    func: "영어 타자 속도, 정확도, 오타 횟수 등 상태를 체크.",
+    github: "https://github.com/guamegi/typing-exam",
+    url: "https://guamegi.github.io/typing-exam/",
+    stack: "HTML5, CSS3, Javascript",
+  },
   {
     no: 7,
     name: "Sally's Tarot",

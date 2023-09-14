@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/reactjs-portfolio/static/css/main.672902bc.css",
-    "main.js": "/reactjs-portfolio/static/js/main.e55f4590.js",
+    "main.js": "/reactjs-portfolio/static/js/main.c1268d96.js",
     "static/media/sallyScreenshot.png": "/reactjs-portfolio/static/media/sallyScreenshot.8032c86aeaf253f846cd.png",
     "static/media/moovingScreenshot.png": "/reactjs-portfolio/static/media/moovingScreenshot.033d6af12c6e8c47d05b.png",
     "static/media/chartSimulator.png": "/reactjs-portfolio/static/media/chartSimulator.256ca6e767f37d8bcd42.png",
@@ -18,6 +18,6 @@
   },
   "entrypoints": [
     "static/css/main.672902bc.css",
-    "static/js/main.e55f4590.js"
+    "static/js/main.c1268d96.js"
   ]
 }

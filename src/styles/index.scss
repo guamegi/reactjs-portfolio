@@ -311,10 +311,17 @@ a {
 }
 
 .btn-style {
+  background-color: transparent;
+  color: white;
+  font-weight: 400;
+  padding: 0 20px;
+  border: none;
   font-size: 1.25rem;
 }
 
 .home-style {
+  background-color: transparent;
+  border: none;
   font-size: 1.75rem;
 }
 
@@ -352,8 +359,11 @@ a {
 }
 
 .mytext {
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-align: left;
+  &.introduce {
+    font-size: 1.2rem;
+  }
 }
 
 .btn-style:hover {

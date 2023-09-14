@@ -26,8 +26,8 @@ export default function Navbar() {
         className="navbar navbar-b navbar-expand-lg navbar-dark fixed-top navbar-trans"
       >
         <div className="container">
-          <a
-            href={() => false}
+          <input
+            type="button"
             className="home-style navbar-brand"
             onClick={() => {
               window.scrollTo({
@@ -35,9 +35,9 @@ export default function Navbar() {
                 behavior: "smooth",
               });
             }}
-          >
-            My Portfolio
-          </a>
+            value="My Portfolio"
+          />
+
           <button
             className="navbar-toggler"
             type="button"
@@ -59,27 +59,25 @@ export default function Navbar() {
             id="navbarNavAltMarkup"
           >
             <div className="navbar-nav">
-              <a
-                href={() => false}
+              <input
+                type="button"
                 onClick={() => SmoothScrollTo("my-background")}
-                className="btn-style nav-item nav-link"
-              >
-                Home
-              </a>
-              <a
-                href={() => false}
+                className="btn-style"
+                value="Home"
+              />
+
+              <input
+                type="button"
                 onClick={() => SmoothScrollTo("about-container")}
-                className="btn-style nav-item nav-link"
-              >
-                About
-              </a>
-              <a
-                href={() => false}
+                className="btn-style"
+                value="About"
+              />
+              <input
+                type="button"
                 onClick={() => SmoothScrollTo("my-projects")}
-                className="btn-style nav-item nav-link"
-              >
-                Projects
-              </a>
+                className="btn-style"
+                value="Projects"
+              />
             </div>
           </div>
         </div>

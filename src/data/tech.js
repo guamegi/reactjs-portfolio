@@ -14,12 +14,18 @@ export const tech = [
   {
     category: "Front-End",
     name: "JQuery",
+    percentage: 90,
+    color: "",
+  },
+  {
+    category: "Front-End",
+    name: "ReactJS / NextJS / VueJs",
     percentage: 85,
     color: "",
   },
   {
     category: "Front-End",
-    name: "Vue.js",
+    name: "ContextApi / Redux / Zustand",
     percentage: 80,
     color: "",
   },
@@ -32,12 +38,6 @@ export const tech = [
   {
     category: "Front-End",
     name: "Bootstrap / Tailwindcss / SCSS",
-    percentage: 80,
-    color: "",
-  },
-  {
-    category: "Front-End",
-    name: "ReactJS / NextJS",
     percentage: 80,
     color: "",
   },
@@ -85,14 +85,14 @@ export const tech = [
   },
   {
     category: "Communication",
-    name: "Gira",
-    percentage: 70,
+    name: "Gira / Confluence",
+    percentage: 75,
     color: "bg-secondary",
   },
   {
     category: "Communication",
-    name: "Confluence",
-    percentage: 70,
+    name: "Slack",
+    percentage: 85,
     color: "bg-secondary",
   },
 ];

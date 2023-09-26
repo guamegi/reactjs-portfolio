@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/reactjs-portfolio/static/css/main.672902bc.css",
-    "main.js": "/reactjs-portfolio/static/js/main.c753846f.js",
+    "main.js": "/reactjs-portfolio/static/js/main.e54cb1ae.js",
     "static/media/theBunker.png": "/reactjs-portfolio/static/media/theBunker.74411fe04cbba7c30625.png",
     "static/media/sallyScreenshot.png": "/reactjs-portfolio/static/media/sallyScreenshot.8032c86aeaf253f846cd.png",
     "static/media/moovingScreenshot.png": "/reactjs-portfolio/static/media/moovingScreenshot.033d6af12c6e8c47d05b.png",
@@ -19,6 +19,6 @@
   },
   "entrypoints": [
     "static/css/main.672902bc.css",
-    "static/js/main.c753846f.js"
+    "static/js/main.e54cb1ae.js"
   ]
 }

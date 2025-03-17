@@ -41,7 +41,7 @@ export const projects = [
     images: [sallyScreenshot, sallyTarot],
     desc: `타로 카드를 사용하여 미래를 예측하는 모바일 타로 앱. One card로 현재 상황을 해석하고, Three cards로 과거 / 현재 / 미래를 풀이. 영어와 한국어의 다국어 지원. 생성형 이미지 AI 툴인 stable diffusion을 이용해 디자인 활용.`,
     func: "One or Three cards 설정/선택, 선택한 카드 로컬DB 저장, 공유 기능, 다국어 지원(영어/한국어)",
-    // github: "https://github.com/guamegi/chart-simulator",
+    github: "https://github.com/guamegi/sally-tarot",
     url: "https://play.google.com/store/apps/details?id=com.guamegi.sallytarot",
     stack: "React Native(CRNA), Styled-Components, i18next, Realm",
   },

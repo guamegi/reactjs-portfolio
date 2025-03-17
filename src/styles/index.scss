@@ -81,7 +81,8 @@
     1275px 1895px #fff, 1331px 130px #fff, 1251px 1424px #fff,
     1003px 1183px #fff, 721px 904px #fff, 1261px 416px #fff, 600px 577px #fff,
     384px 910px #fff, 1248px 1547px #fff, 955px 734px #fff, 940px 570px #fff;
-  animation: animStar 50s linear infinite;
+  animation: animStar 150s linear infinite;
+  will-change: transform;
 }
 
 #snow2 {
@@ -141,7 +142,8 @@
     1855px 1379px #fff, 1244px 30px #fff, 2144px 1873px #fff, 1276px 958px #fff,
     1675px 1097px #fff, 354px 1735px #fff, 1534px 235px #fff, 560px 1850px #fff,
     493px 1737px #fff, 782px 598px #fff, 1709px 1377px #fff, 717px 1040px #fff;
-  animation: animStar 100s linear infinite;
+  animation: animStar 200s linear infinite;
+  will-change: transform;
 }
 
 #snow3 {
@@ -177,7 +179,8 @@
     2088px 1583px #fff, 1840px 1126px #fff, 2500px 111px #fff, 2263px 667px #fff,
     1748px 121px #fff, 1608px 364px #fff, 1064px 1610px #fff, 2594px 1466px #fff,
     2505px 436px #fff, 389px 1049px #fff, 1682px 1826px #fff, 1747px 1800px #fff;
-  animation: animStar 150s linear infinite;
+  animation: animStar 250s linear infinite;
+  will-change: transform;
 }
 
 @keyframes animStar {

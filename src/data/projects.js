@@ -42,7 +42,7 @@ export const projects = [
     desc: `타로 카드를 사용하여 미래를 예측하는 모바일 타로 앱. One card로 현재 상황을 해석하고, Three cards로 과거 / 현재 / 미래를 풀이. 영어와 한국어의 다국어 지원. 생성형 이미지 AI 툴인 stable diffusion을 이용해 디자인 활용.`,
     func: "One or Three cards 설정/선택, 선택한 카드 로컬DB 저장, 공유 기능, 다국어 지원(영어/한국어)",
     github: "https://github.com/guamegi/sally-tarot",
-    url: "https://play.google.com/store/apps/details?id=com.guamegi.sallytarot",
+    // url: "https://play.google.com/store/apps/details?id=com.guamegi.sallytarot",
     stack: "React Native(CRNA), Styled-Components, i18next, Realm",
   },
   {
@@ -53,7 +53,7 @@ export const projects = [
     desc: `TMDB의 무료 API 이용해 국내 및 해외의 인기 영화와 TV 프로그램의 평점과 정보들을 제공. 섹션별 컨텐츠 제공 및 상세 내용 안내, 내가 알고싶은 영상 컨텐츠 검색 기능 제공. 인앱브라우저 기능으로 유튜브 트레일러 영상을 지원. `,
     func: "영화, TV 프로그램 정보 제공, 검색 기능, 인앱브라우저, Light/Dark 테마 지원",
     github: "https://github.com/guamegi/mooving",
-    url: "https://play.google.com/store/apps/details?id=com.guamegi.mooving",
+    // url: "https://play.google.com/store/apps/details?id=com.guamegi.mooving",
     stack: "React Native, TypeScript, Styled-Components, react-query",
   },
   {
